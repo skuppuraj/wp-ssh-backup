@@ -1,0 +1,14 @@
+{
+  "name": "wp-ssh-backup",
+  "version": "1.0.0",
+  "description": "It will take local files to remote via rsync and send them to s3 repo using resitc",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kuppuraj",
+  "license": "ISC",
+  "dependencies": {
+    "ssh2": "^1.15.0"
+  }
+}
